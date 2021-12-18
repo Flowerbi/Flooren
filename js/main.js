@@ -1,5 +1,7 @@
 $(function(){
 
+  new WOW().init();   
+
   $('.header__btn-menu').on('click', function () {
     $('.header__menu').toggleClass('header__menu--active')
   });
